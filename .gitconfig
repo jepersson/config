@@ -1,11 +1,7 @@
 [user]
   useConfigOnly = true
 
-[github]
-  user = jepersson
-
 [core]
-  excludesfile = ~/.gitignore_global
   editor = vim
 
 [diff]
