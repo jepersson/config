@@ -47,8 +47,6 @@ set splitright
 set laststatus=2
 set statusline=%3c
 set statusline+=\ >\ %f\ 
-set statusline+=%=
-set statusline+=\ %Y\ 
 
 " Colors
 set t_Co=16   			
@@ -61,6 +59,7 @@ if exists("syntax_on")
   syntax reset
 endif
 
+highlight Title        cterm=NONE      ctermfg=Cyan       ctermbg=Black
 highlight Normal       cterm=NONE      ctermfg=White      ctermbg=Black
 
 highlight Comment      cterm=NONE      ctermfg=Gray
