@@ -18,10 +18,10 @@ set backspace=indent,eol,start
 set tabstop=2
 set softtabstop=2
 set shiftwidth=2
-au BufNewFile,BufRead *.py
-    \ set tabstop=4
-    \ set softtabstop=4
-    \ set shiftwidth=4
+au Filetype python 
+  \ setlocal tabstop=4     |
+  \ setlocal softtabstop=4 |
+  \ setlocal shiftwidth=4  |
 
 " Searching
 set hlsearch
