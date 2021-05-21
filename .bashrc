@@ -39,3 +39,7 @@ export PS1=$PS1"$CYAN\w "
 export PS1=$PS1"$DARKCYAN\$(git_branch)"
 export PS1=$PS1"$GRAY\$(conda_env)"
 export PS1=$PS1"$WHITE\n$ "
+
+# Define alias for config git repo
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+
